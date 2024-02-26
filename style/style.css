@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-brand{
+    max-width: 120px;
+    }
+.navbar-brand img{
+    width: 100%;
+}
+.navbar-text{
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    color: #f28600 !important;
+}
+.nav-link{
+    font-size: 0.75rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 2px !important;
+}

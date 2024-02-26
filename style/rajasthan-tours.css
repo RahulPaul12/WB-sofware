@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+  }
+  
+  .hero-contact {
+    background-image: url("../imges/Breadcrumb-default.jpg");
+    height: 295px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 4rem;
+  }
+  .card-title{
+    font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 26px;
+}
+.card-text{
+    font-size: 0.875rem;
+  color: black;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding-top: 16px;
+}
+  
+  .image{
+    width: 100%;
+    max-height:200px;
+    height: 100%;
+    object-fit:cover;
+  }
+  .left i{
+    padding:20px;
+    font-size: x-large;
+    border-radius: 8%;
+    background: #f28600;
+    color: white;
+    
+  }
+  .float{
+      position:fixed;
+      width:60px;
+      height:60px;
+      bottom:40px;
+      right:40px;
+      background-color:#25d366;
+      color:#FFF;
+      border-radius:50px;
+      text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+      box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .phone{
+      bottom:130px;
+      background-color:#2545d3;
+      
+  }
+  .text{
+    
+      width:3vw;
+      height: fit-content;
+      writing-mode:sideways-lr;
+      
+      color:#FFF;
+      font-size: 2rem;
+      text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+      box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    position: fixed;
+      bottom:50%;
+    right: 0;
+      background-color:#f28600;
+      
+  }
+  input {
+    background-color: rgb(245, 244, 244) !important;
+    margin: 10px 10px;
+  }
+  input::placeholder {
+    color: rgb(197, 196, 196) !important;
+  }
+
+  .enuirey{
+    margin-top: -5%;
+    
+  }
+  .welcome-text{
+    font-weight: 300;
+    letter-spacing: 10.5;
+    font-size: 1.25rem;
+  }
+  .btn{
+    font-size: 16px;
+    width: 100%;
+    padding: 5%;
+    border-radius: 5px !important;
+    background-color: #f28600 !important;
+    color: white !important;
+    font-weight: 600;
+  }
+  
+  
+  
