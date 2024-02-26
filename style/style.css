@@ -24,3 +24,80 @@
     font-weight: 500 !important;
     letter-spacing: 2px !important;
 }
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+z-index:100;
+cursor: pointer;
+text-decoration: none;
+}
+.phone{
+  bottom:130px;
+  background-color:#2545d3;
+  
+}
+.text{
+
+  width:3vw;
+  height: fit-content;
+  writing-mode:sideways-lr;
+  
+  color:#FFF;
+  font-size: 2rem;
+  text-align:center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+z-index:100;
+cursor: pointer;
+text-decoration: none;
+padding: 12px;
+border-radius: 8px;
+position: fixed;
+  bottom:50%;
+right: 0;
+  background-color:#f28600;
+  
+}
+input {
+    background-color: rgb(245, 244, 244) !important;
+    margin: 10px 10px;
+  }
+  input::placeholder {
+    color: rgb(197, 196, 196) !important;
+  }
+
+  .enuirey{
+    margin-top: -5%;
+    
+  }
+  .btn{
+    font-size: 16px;
+    width: 100%;
+    padding: 5%;
+    border-radius: 5px !important;
+    background-color: #f28600 !important;
+    color: white !important;
+    font-weight: 600;
+  }
+  .card-title{
+    text-align: left;
+    
+    color: white;
+   
+  }
